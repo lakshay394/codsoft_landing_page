@@ -1,152 +1,160 @@
-*{
+* {
     margin: 0px;
 }
 
-    body{
-        background: radial-gradient(ellipse at bottom, #b8cbe1, #0b0c0d);
-        background-image: url(/images/background.jpg);
-        /* background-repeat: no-repeat; */
-        background-size:cover;
-        background-attachment: fixed;
-        background-position: center;
-    }
-    
+body {
+    background: radial-gradient(ellipse at bottom, #b8cbe1, #0b0c0d);
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 
 
-header{
+
+header {
     position: fixed;
     overflow: hidden;
     width: 100%;
     height: 4rem;
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: row;
 }
-.logo{
+
+.logo {
     border-radius: 100px;
-    /* background-color: rgba(13, 13, 13); */
     margin-left: 1%;
     height: 4rem;
     width: 22%;
     float: left;
 }
-.nav_items{
+
+.nav_items {
+    background-color: #420573;
     margin-top: 1.5%;
     width: 68%;
     list-style: none;
     display: flex;
     justify-content: right;
-    /* background-color: aliceblue; */
     align-content: center;
 }
-.nav_items li a{
-    font-family:monospace;
+
+.nav_items li a {
+    font-family: monospace;
     color: rgb(238, 238, 238);
     margin-top: 30px;
-    margin-right: 3rem;
+    margin-right: 30px;
     font-size: 1.3rem;
     text-decoration: none;
     list-style-type: none;
     transition: all .2s;
 }
-.nav_items li a:hover{
+
+.nav_items li a:hover {
     text-decoration: underline;
-    color:rgb(232, 185, 128);
+    color: rgb(232, 185, 128);
 }
-#login{
+
+#login {
     border: solid 1px white;
     padding: 1.2%;
-
+    margin-right: 1rem;
     border-radius: 5px;
     transition: all .5s;
 }
-#signup{
+
+#signup {
     border-radius: 5px;
     padding: 1.2%;
     background-color: aliceblue;
     border: solid 1px white;
     color: black;
     transition: all .5s;
-
+    margin-left: 0px; margin-right: 0px;
 }
-#login:hover{
+
+#login:hover {
     border-radius: 5px;
+    margin-right: 1rem;
     padding: 1.2%;
     background-color: aliceblue;
     color: black;
 }
-#signup:hover{
+
+#signup:hover {
     border-radius: 5px;
     padding: 1.2%;
     background-color: black;
     color: white;
     border: solid 1px white;
+    margin-left: 0px; margin-right: 0px;
 }
 
 
-.outer{
+.outer {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 40rem;
     padding-top: 5%;
 }
-.left{
+
+.left {
     margin: 5% 0% 5% 5%;
     width: 50%;
     height: 80%;
-    /* background-color: rgb(29, 32, 32); */
     text-align: center;
 }
 
-.right{
+.right {
     margin-left: 1%;
-    /* margin-left: 55%; */
     width: 40%;
     height: 80%;
-    /* background-color: rgb(29, 32, 32); */
     text-align: center;
 }
-.wlcm{
+
+.wlcm {
     font-size: 7rem;
-    font-family:cursive;
+    font-family: cursive;
     background: radial-gradient(ellipse at bottom, #d9b9e1, #420573);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.wlcm_txt{
+
+.wlcm_txt {
     margin-left: 15%;
     margin-top: 2%;
     text-align: left;
     width: 70%;
     height: 70%;
-    /* background-color: #beccda; */
     font-size: 2rem;
     font-family: "Exo 2", sans-serif;
-    font-weight:200;
+    font-weight: 200;
 }
 
 
-.about{
+.about {
     width: 100%;
     height: 33rem;
     margin-bottom: 5%;
-    /* background-color: #420573; */
 }
 
-.abt_txt{
+.abt_txt {
     font-family: "Exo 2", sans-serif;
     text-align: center;
     height: 90%;
     width: 80%;
     margin-top: 8%;
     margin-left: 10%;
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-.write_abt{
+
+.write_abt {
     font-size: 1.7rem;
     text-align: left;
     width: 90%;
@@ -156,7 +164,7 @@ nav{
 }
 
 
-.services{
+.services {
     font-family: "Exo 2", sans-serif;
     text-align: center;
     width: 100%;
@@ -164,66 +172,70 @@ nav{
     margin-bottom: 10%;
 }
 
-.services_div{
+.services_div {
     width: 20%;
     margin-left: 4%;
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     border-radius: 20px;
     transition: all .4s;
 }
-.service_first{
+
+.service_first {
     display: flex;
     height: 40%;
     width: 90%;
     margin-left: 5%;
 
 }
-.service_second{
+
+.service_second {
     margin-top: 3%;
     display: flex;
     height: 40%;
     width: 90%;
     margin-left: 5%;
 }
-.services_div:hover{
+
+.services_div:hover {
     width: 20%;
     margin-left: 4%;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
     border-radius: 20px;
 }
 
 
 
-.contact{
+.contact {
     font-family: "Exo 2", sans-serif;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 40rem;
-    /* background-color: #4c2156; */
 }
-.contact_left{
+
+.contact_left {
     text-align: center;
     height: 90%;
     margin-top: 5%;
     width: 40%;
     margin-left: 14%;
-    /* background-color: #c5bec7; */
 }
-.contact_right{
+
+.contact_right {
     height: 90%;
     margin-top: 5%;
     width: 50%;
     margin-left: 5%;
-    /* background-color: #c5bec7; */
 }
-.contact_form{
+
+.contact_form {
     height: 80%;
     width: 100%;
 }
-.entry{
+
+.entry {
     padding-left: 3%;
     font-size: 1.2rem;
     margin-top: 7%;
@@ -232,7 +244,7 @@ nav{
     border-radius: 100px;
 }
 
-.contact_submit{
+.contact_submit {
     border-radius: 10px;
     border: solid 1px black;
     padding: 4px;
@@ -243,7 +255,8 @@ nav{
     color: black;
     transition: all .4s;
 }
-.contact_submit:hover{
+
+.contact_submit:hover {
     border-radius: 10px;
     border: solid 1px rgb(248, 247, 247);
     padding: 4px;
@@ -254,16 +267,18 @@ nav{
     color: rgb(246, 243, 243);
 }
 
-footer{
+footer {
     height: 6rem;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
 }
-.text_footer{
+
+.text_footer {
     font-family: "Exo 2", sans-serif;
     font-size: large;
 }
-.icon_img{
+
+.icon_img {
     margin-left: 1rem;
     width: 2rem;
 }
