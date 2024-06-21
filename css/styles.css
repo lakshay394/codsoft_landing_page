@@ -1,16 +1,7 @@
 *{
     margin: 0px;
 }
-@media screen and (min-width:800px) {
-    body{
-        background: radial-gradient(ellipse at bottom, #b8cbe1, #0b0c0d);
-        background-image: url(/images/background.jpg);
-        /* background-repeat: no-repeat; */
-        background-size:cover;
-        background-attachment: fixed;
-    }
-}
-@media screen and (min-width:800px) {
+
     body{
         background: radial-gradient(ellipse at bottom, #b8cbe1, #0b0c0d);
         background-image: url(/images/background.jpg);
@@ -19,7 +10,8 @@
         background-attachment: fixed;
         background-position: center;
     }
-}
+    
+
 
 header{
     position: fixed;
@@ -49,12 +41,11 @@ nav{
     /* background-color: aliceblue; */
     align-content: center;
 }
-
 .nav_items li a{
     font-family:monospace;
     color: rgb(238, 238, 238);
     margin-top: 30px;
-    margin-right: 4rem;
+    margin-right: 3rem;
     font-size: 1.3rem;
     text-decoration: none;
     list-style-type: none;
